@@ -1,0 +1,63 @@
+/* RESET */
+* {margin: 0; padding: 0; font-family: 'Open Sans', sans-serif; }
+body,html{height: 100%; width: 100%;}
+ul {list-style-type: none;}
+p {text-align: center;}
+
+/* CABEÇALHO */
+#cabecalho {width: 84%; float: left; padding: 10px 8%; background-color: #FFF; }
+#logo a img{width: 442px; height: auto; float: left; background:url("../img/logo.png") no-repeat; font-size: 0;}
+
+/* MENU */
+#menu {width: 84%; float: left; background-color: #111; padding: 18px 8%;}
+#menu li {float: left;}
+#menu li a {color: #9d9d9d; margin-right: 25px; text-decoration:none; transition: color 0.5s; -moz-transition: color 0.5s; -webkit-transition: color 0.5s;}
+#menu li a:hover {color: #0CE88E;}
+
+/* SOCIAL ICONS */
+#social-icons {float: right;}
+#social-icons a {color: #fff; float: left; margin-left: 12px; }
+#btn-facebook { transition: color 0.5s; -moz-transition: color 0.5s; -webkit-transition: color 0.5s;}
+#btn-facebook:hover {color: #3B5998;}
+#btn-twitter:hover {color: #54A4D6;}
+
+
+/* LATERAL ESQUERDA */
+#left{width:70%; height: auto; float: left} /* Seção da esquerda (postagens) */
+
+.Conteudo{ margin: 10px 10px 10px 25px;} /* Margem para o conteúdo */
+
+	/* CORPO DA POSTAGEM */
+
+.Post{ width:a; overflow:auto;  margin-bottom: 20px;}
+.Post h1{ font: 18px Arial, Helvetica, sans-serif; color:#0CE88E; font-weight:normal; margin: 10px 10px 10px 10px; text-align:center;}
+.Post h1 a{ font: 18px Arial, Helvetica, sans-serif; color:#0CE88E; text-decoration:none; font-weight:normal; text-align: center; margin: auto;}
+.Post h1 a:hover{ text-decoration:underline;}
+.Post h2{ font: 18px Arial, Helvetica, sans-serif; color:#0CE88E; font-weight:normal; margin: 10px 10px 10px 10px; text-align:center;}
+.Post h6{ font: 12px Arial, Helvetica, sans-serif; color:#0CE88E; padding-left: 2px; text-align:center; padding-bottom:10px;}
+.Post h5 { font:18px Arial, Helvetica, sans-serif; color:#0CE88E; padding-left: 2px; text-align:center; padding-bottom:10px;}
+.Post a img{  width:300px; height:300px; border:1px solid #333; margin: 20px 20px 20px 0px;transition: border 0.5s; -moz-transition: border 0.5s; -webkit-transition: border 0.5s;}
+.Post a:hover img{ border-color:#0CE88E;}
+.Post p{ font:18px Arial, Helvetica, sans-serif; font-weight:normal; color:#0CE88E; padding: 10px 0px; text-align:center;}
+.Post p a{ font:18px Arial, Helvetica, sans-serif; text-decoration:none; font-weight:normal; color:#0CE88E; padding: 10px 0px; text-align:center;}
+.Post p a:hover{ text-decoration:underline;}
+
+
+
+
+/* LATERAL DIREITA */
+
+#right{width: 270px; height: auto; float: right; margin-right: 10px;} /* Seção da direita (barra lateral, publicidade) */
+
+#publicidade_pr ul li #pub_title{display: inline-block; text-align: center; font-family: Arial, Helvetica, sans-serif; width: 300px; padding: 5px 0; border-bottom: 1px dashed grey;} /* Título da publicidade */
+
+#publicidade_pr { width:270px; height:auto; margin: 10px 15px 10px 0;}
+#publicidade_pr ul{ overflow:hidden; box-shadow: -2px 2px 5px grey; transition: box-shadow 0.5s; -moz-transition: box-shadow 0.5s; -webkit-transition: box-shadow 0.5s;}
+#publicidade_pr ul:hover{ box-shadow: -2px 2px 10px grey;}
+#publicidade_pr ul li{text-align: center;}
+
+
+ /* RODAPÉ */
+#rodape{ width:84%; background-color: #000; font-weight:bold; padding: 30px 8%; clear: both;  bottom: 0;}
+#rodape p {font:18px Arial, Helvetica, sans-serif; font-weight:normal; color:#fff; padding: 10px 0px; text-align:center; transition: color 0.5s; -moz-transition: color 0.5s; -webkit-transition: color 0.5s;}
+#rodape p:hover{ color: #0CE88E; cursor: default;}
