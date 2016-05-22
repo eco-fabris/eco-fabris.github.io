@@ -33,7 +33,7 @@ p {text-align: center;}
 .Post h1{ font: 18px Arial, Helvetica, sans-serif; color:#0CE88E; font-weight:normal; margin: 10px 10px 10px 10px; text-align:center;}
 .Post h1 a{ font: 18px Arial, Helvetica, sans-serif; color:#0CE88E; text-decoration:none; font-weight:normal; text-align: center; margin: auto;}
 .Post h1 a:hover{ text-decoration:underline;}
-.Post h2{ font: 18px Arial, Helvetica, sans-serif; color:#0CE88E; font-weight:normal; margin: 10px 10px 10px 10px; text-align:center;}
+.Post h2{ font: 18px Arial, Helvetica, sans-serif; color:#000; font-weight:normal; margin: 10px 10px 10px 10px; text-align:center;}
 .Post h6{ font: 12px Arial, Helvetica, sans-serif; color:#0CE88E; padding-left: 2px; text-align:center; padding-bottom:10px;}
 .Post h5 { font:18px Arial, Helvetica, sans-serif; color:#0CE88E; padding-left: 2px; text-align:center; padding-bottom:10px;}
 .Post a img{  width:150px; height:150px; border:1px solid #333; margin: 20px 20px 20px 0px;transition: border 0.5s; -moz-transition: border 0.5s; -webkit-transition: border 0.5s;}
